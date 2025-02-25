@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranne Plaza Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Ranne <span>Plaza</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+    
+        
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Hello there!</h2>
+            <h1>I am <span>RANNE PLAZA</span></h1>
+            <p>&lt;code&gt; I create designs and build automation tools. &lt;/code&gt;</p>
+            <a href="#about" class="btn">LEARN MORE ABOUT ME</a>
+        </div>
+        <div class="hero-image">
+            <img src="Image/ME.jpg" alt="Ranne Plaza">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-me-section"> 
+        <div class="about-me-container">
+            <div class="about-me-text">
+                <h1>About <span>Me</span></h1>
+                <p>Hello! I'm Ranne Plaza, a passionate web designer and automation tool builder with over 6 months of experience in the industry. My journey started with a love for creativity and technology, and over time, I have been able to blend both fields to create efficient, beautiful, and responsive websites, while also developing tools that automate tedious processes.</p>
+                <p>In addition to web design, I specialize in building custom automation tools that help businesses streamline their operations. Whether it's automating workflows, data management, or creating custom scripts for repetitive tasks, I take pride in making technology work for my clients.</p>
+                <a href="https://drive.google.com/file/d/1qLnd7o7RJZJmfjtNIukyEf4b2OSMC4-H/view?usp=sharing" class="download-btn" target="_blank">Download CV <span>&#x2B07;</span></a>
+            </div>
+    
+            <div class="about-me-stats">
+                <div class="stat">
+                    <h2>6</h2>
+                    <p>Months working experience</p>
+                </div>
+             
+        </div>
+    </section>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow-section">
+        <h1>Certificates and Achievements</h1> 
+        <div class="slideshow-container">
+            <!-- Slide 1: Certificate -->
+            <div class="slide">
+                <div class="certificate">
+                    <img src="Image/Solo Learn CSS Cert.jpg" alt="Certificate of Recognition" style="width:100%; max-width:300px; margin-bottom:20px;">
+                </div>
+            </div>
+        
+            <!-- Slide 2: Certificate -->
+            <div class="slide">
+                <div class="certificate">
+                    <img src="Image/Solo Learn Html Cert.jpg" alt="Certificate of Recognition" style="width:100%; max-width:300px; margin-bottom:20px;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Certificate -->
+        <div class="slide">
+            <div class="certificate">
+                <img src="Image/Screenshot 2025-01-31 203054.png" alt="Certificate of Recognition" style="width:100%; max-width:300px; margin-bottom:20px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide 4: Certificate -->
+    <div class="slide">
+        <div class="certificate">
+            <img src="Image/Screenshot 2025-01-31 203122.png" alt="Certificate of Recognition" style="width:100%; max-width:300px; margin-bottom:20px;">
+        </div>
+    </div>
+</div>
+
+<!-- Slide 5: Certificate -->
+<div class="slide">
+    <div class="certificate">
+        <img src="Image/Screenshot 2025-01-31 203156.png" alt="Certificate of Recognition" style="width:100%; max-width:300px; margin-bottom:20px;">
+    </div>
+</div>
+</div>
+
+        <!-- Navigation Arrows -->
+        <center>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </center>
+    </section>
+
+    <div id="services" class="container">
+        <h1 class="heading">Services</h1>
+        <div class="services-grid">
+            <div class="service-box">
+                <h3>Website Design and Layout</h3>
+                <p>Creating visually appealing and user-friendly website designs.</p>
+                <p>Developing wireframes and prototypes.</p>
+                <p>Ensuring responsive design for compatibility across devices (desktop, tablet, mobile).</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Graphic Design</h3>
+                <p>Designing logos, banners, icons, and other visual elements.</p>
+                <p>Creating custom graphics for websites.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>UI/UX Design</h3>
+                <p>Enhancing user experience through intuitive interfaces.</p>
+                <p>Conducting user research and usability testing.</p>
+                <p>Designing with a focus on easy navigation and user engagement.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Search Engine Optimization (SEO)</h3>
+                <p>Implementing SEO-friendly practices in design and development.</p>
+                <p>Improving website ranking on search engines through keyword optimization, meta tags, etc.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Website Maintenance and Updates</h3>
+                <p>Ongoing support for updating content, fixing bugs, or adding new features.</p>
+                <p>Ensuring website security and backups.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>Custom Coding and Features</h3>
+                <p>Developing custom functionalities such as booking systems, user profiles, or data analytics.</p>
+                <p>Integrating third-party services like social media platforms, chatbots, or APIs.</p>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:Ranne.Plaza@carsu.edu.ph">Ranne.Plaza@carsu.edu.ph</a></p>
+            <p>Mobile: +63 9958230782</p>
+            <div class="social-icons">
+                <a href="#"><img src="Image/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="Image/Instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="Image/Twitter.png" alt="Twitter"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Ranne Plaza. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Script for Slideshow -->
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
+
